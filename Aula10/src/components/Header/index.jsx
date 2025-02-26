@@ -8,12 +8,13 @@ function Header() {
                 <div className={style.divisao}>
                     <h1>EasyApply</h1>
                     <nav className={style.navbar}>
-                        <a href="#">Inicio</a>
-                        <a href="#">Sobre</a>
+                        <a href="/">Inicio</a>
+                        <a href="/sobre">Sobre</a>
                         <a href="#">Projetos</a>
                     </nav>
-
-                    <a className={style.contato} href="#">contato</a>
+                    <div className={style.contato}>
+                        <a href="/contato">contato</a>
+                    </div>
                 </div>
             </header>
         </>

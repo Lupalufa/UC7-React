@@ -6,12 +6,10 @@ import Footer from './components/Footer/index.jsx'
 import Header from './components/Header/index.jsx'
 import Main from './components/Main/index.jsx'
 import Home from './pages/Home/index.jsx'
+import Contato from './pages/Contato/index.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Home />
-    {/* <Header />
-    <Main />
-    <Footer /> */}
+    <App />
   </StrictMode>,
 )

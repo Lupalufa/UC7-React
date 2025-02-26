@@ -24,7 +24,7 @@ header {
     font-family: sans-serif;
 }
 
-.divisao > a {
+.contato a{
     text-decoration: none;
     font-size: 15px bold;
     color: black;
@@ -33,7 +33,14 @@ header {
     background-color: white;
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
+    transition: 400ms;
 }
+
+.contato a:hover{
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
 
 .navbar a{
     transition: 500ms;
@@ -44,8 +51,3 @@ header {
     color: rgb(69, 36, 112);
 }
 
-.divisao a:hover
-.divisao a:active{
-    background-color: rgb(29, 29, 29);
-    color: white;
-}
